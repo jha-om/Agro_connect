@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <script defer src="search_bar.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="shortcut icon" href="/Images/favicon.jpg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Agro-Connect</title>
+  </head>
+  <body>
+    <div class="home">
+      <div class="nav-bar">
+        <div class="left-side">
+          <h1 style="color: rgb(220, 220, 53)">Agro-</h1>
+          <h1 style="color: rgb(14, 167, 14)">Connect</h1>
+        </div>
+
+        <div class="right-side">
+          <ul id="nav-links">
+            <li>
+              <a href="index.html"><i class="fa fa-fw fa-home"></i>Home</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-leaf" aria-hidden="true"></i>Crops</a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa fa-bus" aria-hidden="true"></i>Rent machinery</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa fa-asl-interpreting"></i>Cultivation &amp;
+                Protection</a
+              >
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-fw fa-envelope"></i>Contact Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <a href="login.html"
+          ><button id="login"><i class="fa fa-fw fa-user"></i>Login</button></a
+        >
+
+        <button class="right-bar" style="cursor: pointer">
+          <span class="bar"></span>
+        </button>
+      </div>
+
+      <div class="mobile_nav">
+        <ul id="mobile_nav_links">
+          <li>
+            <a href="index.html"><i class="fa fa-fw fa-home"></i>Home</a>
+          </li>
+          <li>
+            <a href="fertilizers.html"
+              ><i class="fa fa-leaf" aria-hidden="true"></i>Crops</a
+            >
+          </li>
+          <li>
+            <a href="rent_machine.html"
+              ><i class="fa fa-bus" aria-hidden="true"></i>Rent machinery</a
+            >
+          </li>
+          <li>
+            <a href="cultivation.html"
+              ><i class="fa fa-asl-interpreting"></i>Cultivation &amp;
+              Protection</a
+            >
+          </li>
+          <li>
+            <a href="contactUs.html"
+              ><i class="fa fa-fw fa-envelope"></i>Contact Us</a
+            >
+          </li>
+        </ul>
+        <a href="login.html"
+          ><button id="mobile_login">
+            <i class="fa fa-fw fa-user"></i>Login
+          </button></a
+        >
+        <div class="mobile_footer">
+          <p>Copyright&copy; 2022 Agro-Connect. All Rights Reserved</p>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <video autoplay muted loop>
+          <source src="images/Pexels Videos 2758322.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <div class="search_bar">
+        <div class="search_img">
+          <img src="Images/Search_img.png" alt="search_image" />
+        </div>
+
+        <input type="text" placeholder="Quick Search" id="quick_search" />
+      </div>
+    </div>
+
+    <div class="sub-home">
+      <div class="looking-for">
+        <div class="card">
+          <div class="img">
+            <img src="Images/machine-1.jpeg" />
+          </div>
+          <div class="description">
+            <p style="cursor: pointer">
+              looking to buy a machine? <span>&nbsp;&rarr;</span>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img">
+            <img src="Images/machine-2.jpeg" />
+          </div>
+
+          <div class="description">
+            <p style="cursor: pointer">
+              looking to rent a machine?<span>&nbsp; &rarr;</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img src="Images/machine-3.jpeg" />
+          </div>
+          <div class="description">
+            <p style="cursor: pointer">
+              looking to sell a machine?<span id="arrow">&nbsp; &rarr;</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img src="Images/crops-image.jpeg" />
+          </div>
+          <div class="description">
+            <p style="cursor: pointer">
+              looking for information?<span>&nbsp; &rarr;</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub-hero-image" id="sub-hero-image"></div>
+
+    <div class="about-agzone">
+      <div class="about">
+        <div class="image">
+          <p id="inc">About Agro-Connect</p>
+          <img src="./Images/about-agzone.jpeg" />
+        </div>
+        <div class="about-para">
+          <p style="color: rgb(255, 0, 0); font-size: 30px">
+            Welcome to <span style="color: rgb(220, 220, 53)">Agro</span
+            ><span>-</span
+            ><span style="color: rgb(14, 167, 14)">Connect</span> where our
+            passion for agriculture drives us to provide exceptional products
+            and services. Our team of experts offers specialized advice on a
+            diverse range of products, and we pride ourselves on staying
+            up-to-date with the latest industry advancements. With our
+            state-of-the-art farm facilities, we provide our clients with the
+            opportunity to test our equipment before making a purchase. Our
+            dedicated team of professionals across the country shares the common
+            goal of producing high-quality products, and we are always eager to
+            expand our team with talented individuals who share our passion.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <section class="services">
+      <div class="heading">
+        <p>Our Services</p>
+      </div>
+      <div class="service-image"></div>
+
+      <div class="cards">
+        <div class="actual-card">
+          <div class="card-image">
+            <img src="./Images/buy (2).png" />
+          </div>
+          <div class="content">
+            <div class="head"></div>
+
+            <p id="para">
+              Our farm facilities offer you the unique opportunity to test drive
+              our machines and see them in action. This allows you to experience
+              the quality and performance of our equipment firsthand and make an
+              informed decision before making a purchase.
+            </p>
+            <p id="more">Learn More</p>
+          </div>
+        </div>
+        <div class="actual-card">
+          <div class="card-image">
+            <img src="./Images/sell (2).png" />
+          </div>
+          <div class="content">
+            <div class="head"></div>
+
+            <p id="para">
+              At Agro-Connect, we understand the unique needs of farmers and
+              strive to provide machines that meet those needs. Our cutting-edge
+              technology and durable materials ensure that our machines are
+              built to last, and our competitive pricing makes them an
+              affordable investment for any farm.
+            </p>
+            <p id="more">Learn More</p>
+          </div>
+        </div>
+        <div class="actual-card">
+          <div class="card-image">
+            <img src="./Images/rent (2).png" />
+          </div>
+          <div class="content">
+            <div class="head"></div>
+
+            <p id="para">
+              If you're looking for a cost-effective way to access high-quality
+              machines for your farm, renting from Agro-Connect is the perfect
+              solution. We offer a wide variety of equipment for rent, including
+              tractors, harvesters, and more.
+            </p>
+            <p id="more">Learn More</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-partners">
+      <h3>-- Our Partners</h3>
+      <div class="partners-sub-heading">
+        <h1 style="background-color: rgb(235, 235, 235)">
+          We Partner With Highly Professionals
+        </h1>
+      </div>
+      <div class="partners">
+        <div class="img1" id="partners-img">
+          <img src="./Images/Nestle-Logo.png" />
+        </div>
+        <div class="img2" id="partners-img">
+          <img src="./Images/Department-LOGO.png" />
+        </div>
+        <div class="img3" id="partners-img">
+          <img src="./Images/prima-ceylon.jpg" />
+        </div>
+        <div class="img4" id="partners-img">
+          <img src="./Images/ruhunu_logo.png" />
+        </div>
+      </div>
+    </section>
+
+    <section class="recent-updates">
+      <h1 style="background-color: rgb(235, 235, 235)">
+        Check out our recent news and updates
+      </h1>
+      <div class="recent-pics">
+        <div class="recent-img1">
+          <img src="./Images/recent-img1.jpg" />
+          <div class="flex">
+            <div class="date">
+              <span id="date" style="text-align: center">30</span
+              ><span id="year" style="text-align: center">December 2022</span>
+            </div>
+            <div class="img-description">
+              <p>
+                Agro-Connect provides high-quality tractor and machine equipment
+                designed to enhance the efficiency and productivity of farms.
+                Their cutting-edge technology and expert engineering ensure
+                durable and reliable equipment, supported by comprehensive
+                service and support.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="recent-img2">
+          <img src="./Images/recent-img2.jpg" />
+          <div class="flex">
+            <div class="date">
+              <span id="date" style="text-align: center">5</span
+              ><span id="year" style="text-align: center">October 2022</span>
+            </div>
+            <div class="img-description">
+              <p>
+                Animals play a crucial role in agriculture, providing essential
+                products such as meat, milk, and eggs, as well as providing
+                labor for farming activities like plowing and harvesting. Proper
+                animal care and management is essential to the success of any
+                agricultural operation.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="recent-img3">
+          <img src="./Images/recent-img3.jpg" />
+          <div class="flex">
+            <div class="date">
+              <span id="date" style="text-align: center">18</span
+              ><span id="year" style="text-align: center">September 2022</span>
+            </div>
+            <div class="img-description">
+              <p>
+                Fruits and vegetables are key components of agriculture,
+                providing essential nutrients for human consumption. Proper
+                farming techniques, including irrigation, pest control, and soil
+                management, are crucial to growing high-quality produce.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="what-they-say">
+      <h1>What Our Customer says about us</h1>
+      <div class="div">
+        <div class="what-they-say-image">
+          <img src="./Images//what-they-img.png" />
+        </div>
+
+        <div class="reviews">
+          <div class="review active">
+            <p>
+              "Agrotech has everything I need to keep my farm running smoothly."
+            </p>
+            <div class="img-review">
+              <div class="user-profile1"></div>
+              <h3>Benjamin Chen</h3>
+            </div>
+            <div class="review-rating">
+              <div class="star-div">&#9733;</div>
+              <div class="star-div">&#9733;</div>
+              <div class="star-div">&#9733;</div>
+              <div class="star-div">&#9733;</div>
+              <div class="star-div-none">&#9734;</div>
+              <span id="review1-rating">4.3/5</span>
+            </div>
+          </div>
+          <div class="review">
+            <p>
+              "Great products, great prices, and excellent customer service."
+            </p>
+            <div class="img-review">
+              <div class="user-profile2"></div>
+              <h3>Alexander Rodriguez</h3>
+            </div>
+            <div class="review-rating">
+              <div class="star-div">&#9733;</div>
+              <div class="star-div">&#9733;</div>
+              <div class="star-div">&#9733;</div>
+              <div class="star-div-none">&#9734;</div>
+              <div class="star-div-none">&#9734;</div>
+              <span id="review1-rating">3/5</span>
+            </div>
+          </div>
+          <div class="review">
+            <p>
+              "Fast delivery and high-quality products - I'm a happy customer!
+            </p>
+            <div class="img-review">
+              <div class="user-profile3"></div>
+              <h3>Dev Sharma</h3>
+            </div>
+            <div class="review-rating">
+              <div class="star-div">&#9733;</div>
+              <div class="star-div">&#9733;</div>
+              <div class="star-div">&#9733;</div>
+              <div class="star-div">&#9733;</div>
+              <div class="star-div-none">&#9734;</div>
+              <span id="review1-rating">4/5</span>
+            </div>
+          </div>
+          <div class="review">
+            <p>
+              "I love how easy it is to find what I'm looking for on Agrotech."
+            </p>
+            <div class="img-review">
+              <div class="user-profile4"></div>
+              <h3>Daniel Davis</h3>
+            </div>
+            <div class="review-rating">
+              <div class="star-div">&#9733;</div>
+              <div class="star-div">&#9733;</div>
+              <div class="star-div">&#9733;</div>
+              <div class="star-div">&#9733;</div>
+              <div class="star-div">&#9733;</div>
+              <span id="review1-rating">5/5</span>
+            </div>
+          </div>
+          <div class="review">
+            <p>
+              "Easy to navigate website and hassle-free ordering process.I
+              always trust Agrotech for my agriculture needs.Agrotech has a
+              fantastic range of products."
+            </p>
+            <div class="img-review">
+              <div class="user-profile5"></div>
+              <h3>Alex Lee</h3>
+            </div>
+            <div class="review-rating">
+              <div class="star-div">&#9733;</div>
+              <div class="star-div">&#9733;</div>
+              <div class="star-div">&#9733;</div>
+              <div class="star-div">&#9733;</div>
+              <div class="star-div-none">&#9734;</div>
+              <span id="review1-rating">4/5</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="left-side-footer">
+        <p style="text-align: center">&copy;2022 All Rights Reserved.</p>
+        <p style="text-align: center">Agro-Connect.</p>
+      </div>
+      <div class="right-side-footer">
+        <p style="text-align: center">
+          Web Design and Development by<a href="index.html"
+            >Agro-Connect Team</a
+          >
+        </p>
+      </div>
+    </section>
+  </body>
+</html>

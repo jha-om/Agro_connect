@@ -1,7 +1,7 @@
-<b>About the Website</b>
-<hr>
+**##About**
 
-**Agro-Connect** is a comprehensive website designed to connect farmers, suppliers, and buyers in the agricultural industry. Our website offers a user-friendly platform that provides a wide range of features and tools to help farmers improve their farming practices and connect with potential buyers.
+
+Agro-Connect is a comprehensive website designed to connect farmers, suppliers, and buyers in the agricultural industry. Our website offers a user-friendly platform that provides a wide range of features and tools to help farmers improve their farming practices and connect with potential buyers.
 
 On our website, farmers can create a profile and showcase their products, including details such as product type, quantity, and pricing. This allows potential buyers to easily browse and find the products they need, as well as communicate with the farmers directly.
 
